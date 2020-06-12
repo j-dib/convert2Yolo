@@ -6,7 +6,7 @@ import csv
 
 import xml.etree.ElementTree as Et
 from xml.etree.ElementTree import Element, ElementTree
-from PIL import Image
+from pil import Image
 
 import json
 
