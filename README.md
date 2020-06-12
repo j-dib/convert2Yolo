@@ -254,7 +254,7 @@ $ mkdir ~/YOLO
 **VOC convert to YOLO**
 
 ```bash
-python3 example.py --datasets VOC --img_path ~/VOCdevkit/VOC2012/JPEGImages/ --label ~/VOCdevkit/VOC2012/Annotations/ --convert_output_path ~/YOLO/ --img_type ".jpg" --manipast_path ./ --cls_list_file ~/VOC/voc.names
+python3 example.py --datasets VOC --img_path ~/example/voc/obj/img/ --label ~/example/voc/obj/Annotations/ --convert_output_path ~/YOLO/ --img_type ".jpg" --manipast_path ./manifest --cls_list_file ~/VOC/obj.names
 
 >>
 VOC Parsing:   |████████████████████████████████████████| 100.0% (17125/17125) Complete
