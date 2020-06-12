@@ -5,7 +5,7 @@ import argparse
 import time
 import pprint
 
-from PIL import Image, ImageDraw
+from pil import Image, ImageDraw
 import matplotlib.pyplot as plt
 import json
 
